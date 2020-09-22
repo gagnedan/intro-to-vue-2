@@ -8,6 +8,18 @@ var app = new Vue({
     link:
       'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg',
     inStock: true,
-    onSale: true
+    onSale: true,
+    details: ["80% cotton", "20% polyester", "Gender-neutral"],
+    sizes: ["small", "medium", "large"],
+    variants: [
+      {
+        variantId: 2234,
+        variantColor: "green",
+      },
+      {
+        variantId: 2235,
+        variantColor: "blue",
+      },
+    ]
     },
 });
