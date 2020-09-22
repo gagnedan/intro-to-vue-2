@@ -7,5 +7,7 @@ var app = new Vue({
     image: './assets/vmSocks-green-onWhite.jpg',
     link:
       'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg',
-  },
+    inStock: true,
+    onSale: true
+    },
 });
