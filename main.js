@@ -30,7 +30,7 @@ var app = new Vue({
         this.cart += 1;
       },
       removeToCart() {
-        this.cart -= 1;
+       this.cart > 0 ? this.cart -= 1 : 0
       },
       updateProduct(variantImage) {
         this.image = variantImage
